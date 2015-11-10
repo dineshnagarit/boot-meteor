@@ -1,0 +1,16 @@
+<template name="basicLayout">
+    <div id="wrapper">
+
+        <div id="sidebar-wrapper">
+            {{> aside}}
+        </div>
+        <header>
+            {{> header}}
+        </header>
+        {{> yield}}
+
+        <footer>
+            {{> footer}}
+        </footer>
+    </div>
+</template>
