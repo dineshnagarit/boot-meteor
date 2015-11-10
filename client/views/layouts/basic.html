@@ -4,10 +4,13 @@
         <div id="sidebar-wrapper">
             {{> aside}}
         </div>
+
         <header>
             {{> header}}
         </header>
-        {{> yield}}
+        <div class="container col-lg-12">
+            {{> yield}}
+        </div>
 
         <footer>
             {{> footer}}
